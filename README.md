@@ -54,7 +54,7 @@ Get the most out of this workshop! We'll occasionally do a "CHALLENGE" where I g
 
 ## About me:
 
-Frank Burkholder - Lead Instructor Data Science Immersive - Galvanize Platte campus
+Frank Burkholder - Lead Instructor Data Science Immersive - Galvanize Platte campus  
 https://www.linkedin.com/in/frankburkholder
 
 
@@ -62,7 +62,7 @@ https://www.linkedin.com/in/frankburkholder
 
 Give a quick Intro!
 
-- Whats your name?
+- What's your name?
 - Why are you interested in Python?
 
 ## What is Python?
@@ -75,6 +75,10 @@ Python is Known ease of learning, code readability (must use code indents), and 
 
 Read more about the history of Python [here](https://en.wikipedia.org/wiki/Python_(programming_language)).
 
+What programming language do software developers like? [Here's what they said.](https://insights.stackoverflow.com/survey/2019#overview)
+(If you like Python, there's a good chance you'll be consulting answers on Stack Overflow)
+
+And what other language has an intentional Zen?! [Zen of Python](https://www.python.org/dev/peps/pep-0020/)
 
 ### Who uses Python?
 
@@ -154,7 +158,8 @@ Feel free to try these different data types out in your code!
 
 Numbers are written just like you would think. Just the number! No quotes or symbols to worry about. If you do put quotes around a number it will become a string (see next)
 
-`25` `100`
+`25`  
+`100`
 
 Multiple, Add, Divide, Compare, remainder
 
@@ -167,8 +172,9 @@ Multiple, Add, Divide, Compare, remainder
 #### Strings:
 Strings can be a collection of letters, symbols and/or numbers. They are made by surrounding the content with quotation marks.
 
-`"Hello, World."`
-`"CrAzy Random String 987879896jvdjvda &&(&(@*(*"`
+`"Hello, World."`  
+`"CrAzy Random String 987879896jvdjvda &&(&(@*(*"`  
+`"It's so nice having both single & double quotes to make strings."`  
 
 can use double: ", Single ' or triple(3 singles) ''' quotes for strings.
 
@@ -191,9 +197,15 @@ string2 =  "this is a string {} More {} string".format(varOne, varTwo)
 
 # you can specify which variable is used where
 string3 =  "varTwo is: {1} varOne is: {0}".format(varOne, varTwo)
-
 print(string3)
 
+# the *new* way: f-strings
+fee = 'FEE'
+fie = 'FIE'
+foe = "FOE"
+
+string4 = f"{fee}-{fie}-{foe}!"
+print(string4)
 ```
 
 ```
@@ -294,7 +306,14 @@ tvshows.remove(tvshows[0])
 print(tvshows)
 ```
 
-read more about python lists[here](https://www.w3schools.com/python/python_lists.asp).
+Read more about python lists [here.](https://www.w3schools.com/python/python_lists.asp).
+
+-------
+### Challenge:
+- make a list `[]` containing your favorite foods.
+- update the list adding more item
+- remove the first item from the list
+-------
 
 #### Tuples
 
@@ -305,12 +324,15 @@ Tuples behave a lot like lists, except you can change the values
 tvshows = ('West World','Mr. Robot', 'Game of Thrones')
 print(tvshows)
 ```
-you cannot update tuples in your code. They will throw an error.
+You can't update tuples in your code. They will throw an error.  
+Then why are they useful?  They don't take up much memory (2-5x smaller
+than a list).  Sometime you just need to store information, not change it.
 
 
 #### Dictionary (Dict)
 
-Dictionaries can also be used to store values, but they are indexed. 
+Dictionaries can also be used to store values, but they are indexed by a pointer
+to the information, a `key`.  This pointer allows fast retrieval of the values. 
 
 
 ```
@@ -325,7 +347,7 @@ print(person['name'])
 ```
 
 
-##### update
+##### update the dictionary 
 
 ```
 person['name'] = "Ted"
@@ -345,27 +367,20 @@ del person['age']
 print(person)
 ```
 
-read more about python dictionaries[here](https://www.w3schools.com/python/python_dictionaries.asp).
+Read more about python dictionaries [here.](https://www.w3schools.com/python/python_dictionaries.asp).
 
 -------
 ### Challenge:
-- make a list `[]` containing your favorite foods.
-- update the list adding more item
-- remove the first item from the list
-
 - Make dictionary with values about your self.
 - update one of the values
 - add a new value
 - remove one of the values
-
 -------
-
-
 
 ## Comparison Operators:
 Comparison Operators are used quite frequently in programming. Its a great way to compare and use data.
 
-Again we won't cover ALL of the comparison operators in this workshop, but you can see a full list of them [here](https://docs.python.org/3/library/stdtypes.html#comparisons)
+Again we won't cover ALL of the comparison operators in this workshop, but you can see a full list of them  [here.](https://docs.python.org/3/library/stdtypes.html#comparisons)
 
 - `==` Equal
 - `!=` Not Equal
@@ -381,7 +396,7 @@ This would return a boolean value. Depending on the values of these variables th
 
 
 ## Spacing
-most of the upcoming examples you'll see parts of the code indented.
+Most of the upcoming examples you'll see parts of the code indented.
 This lets python know when blocks of code begin & end. I'll explain as we go through examples. Just remember that spacing is important and it can cause issues with your code working.
 
 
@@ -395,30 +410,30 @@ Example:
 
 ```
  if guess == answer:
-      message = "You Win!"
-  elif guess < answer:
-      message = "Your guess is too low!"
-  elif guess > answer:
-      message = "your guess is too high!";
-  else:
-    message = "I think you entered something wrong..."
+     message = "You Win!"
+ elif guess < answer:
+     message = "Your guess is too low!"
+ elif guess > answer:
+     message = "your guess is too high!";
+ else:
+     message = "I think you entered something wrong..."
 
 ```
 
 ---
-### challenge
+### Challenge
 
-- make a variable with with a numerical value. 
-- using the `if`, `elif`, and `else` make your program print something different depending on the value in your variable.
+- Make a variable with with a numerical value. 
+- Using the `if`, `elif`, and `else` make your program print something different depending on the value in your variable.
 
 ---
 
 ## Loops
-We're going to go over some of the basic loops in python, but yet again we're not going to cover everything, so you may want to read more about loops [here](https://www.learnpython.org/en/Loops).
+We're going to go over some of the basic loops in python, but yet again we're not going to cover everything, so you may want to read more about loops [here.](https://www.learnpython.org/en/Loops).
 
 Loops are used when you want to repeat something. You can repeat the exact same thing, or change some variable and repeat the action again.
 
-the two common types of loops are `for` and `while`.
+The two common types of loops are `for` and `while`.
 `for` loops are often used to run a loop a specified amount of time.
 
 `while` loops are often used to run a loop indefinitely until certain criteria are met.
@@ -456,7 +471,7 @@ for x in info:
     print(info[x])
 ```
 
-read more on for loops [here](https://www.w3schools.com/python/python_for_loops.asp)
+Read more on for loops [here.](https://www.w3schools.com/python/python_for_loops.asp)
 
 while loop:
 
@@ -464,15 +479,15 @@ while loop:
 count = 1
 while count <= 5:
     print(count)
-    count += 1  # This is the same as count = count + 1
+    count += 1  # This is the same as count = count + 1, or count += 1
 ```
 
 
-read more on while loops [here](https://www.w3schools.com/python/python_while_loops.asp)
+Read more on while loops [here.](https://www.w3schools.com/python/python_while_loops.asp)
 
 ---
-### challenge
-[Fizzbuzz](https://en.wikipedia.org/wiki/Fizz_buzz) and variations of it is a popular interview question. 
+### Challenge
+[Fizzbuzz](https://en.wikipedia.org/wiki/Fizz_buzz) is a popular interview question. 
 
 "From 1 to 100.
 
@@ -482,13 +497,12 @@ For each multiple of 5, print "Buzz" instead of the number.
 
 For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number."
 
-Lets break it down and solve it together!
-
+Try it!  Maybe just focus 1 to 20 at first.
 ---
 
 ## Iterating
 
-Now that we know about loops lets talk a bit about iteration! 
+Now that we know about loops lets talk a bit about iteration. 
 
 Many objects may have data we want to iterate through to do something with it. Common iterables: Strings, Lists, Dicts, tuples.
 
@@ -498,10 +512,10 @@ String:
 word = "hello"
 
 for x in word:
-	Print(x)
+	print(x)
 ```
 
-lists:
+Lists:
 
 ```
 tvshows = ['West World','Mr. Robot', 'Game of Thrones']
@@ -529,6 +543,18 @@ for x in person:
 	
 ```
 
+List comprehensions:
+Code written in list comprehensions tends to be more readable AND faster than using for loops.
+The syntax is different, but if you keep doing it you'll get used to it.  
+```
+# a for loop
+for x in person:
+	print(person[x])
+
+# a list comprehension  
+[print(x) for x in person]
+```
+
 ## Functions
 Reduce, Reuse, Recycle
 
@@ -548,10 +574,9 @@ to use the function call it by writing its name and open/close parenthesis(). Wi
 
 In this simple example you're not saving a ton of code, but imagine a function that uses many lines of code! 
 
-Scope example?
 
 ---
-### challenge
+### Challenge
 
 Create a function that multiplies 3 numbers together and prints out the values.
 
@@ -566,19 +591,19 @@ Getting input from the command line can be useful.
 
 To do that we will use the `input` function. And we want to assign that input to a variable.
 
-`guess = input("enter guess")`
+`guess = input("enter guess: ")`
 
 Print will output text to the terminal
 
 ```
 guess = input("enter guess: ")
-print("Your guess was {}".format(guess))
+print(f"Your guess was {guess}")
 ```
 
 ---
 ### Challenge:
 
-Using the `input()` function ask a user for there name. Then print out a sentence using the name. 
+Using the `input()` function ask a user for their name. Then print out a sentence using the name. 
 
 ---
 
@@ -675,49 +700,19 @@ The modulo return the remainder
 </details>
 
 
-## Lets do some code!
-You just learned a lot! Lets put it together and build something!
+## Congratulations!
+You just learned a lot! Now keep practicing!
 
-Sign up if you haven't already and create a new project: https://repl.it/
-
-
-We're going to build a number guessing game using:
-
-- variables
-- Comparison Operators
-- Conditionals
-- loops
-- functions
-- dialog boxes
-
-If you get stuck or want to look ahead at the completed project you can view it [here](https://repl.it/@SageElliott/pythonGuessingGame).
-
-What are some ideas for improvements? 
-
-- Exit on command
-- data validation
-- input the number range from popup
-- output grammar depending on number of tries
-
-
-
-# YOU DID IT! YOU'RE NOW A PROGRAMMER!
-
-
-
-
-
-### Welcome! :)
+Coding is like exercising.  
+I highly recommend [CodeWars (www.codewars.com).](www.codewars.com)
 
 ### Keep learning!
 
 
 Learning resources:
 
-- [Python Fundamentals: accelearated TUITION CREDIT AVAILABLE!!](https://www.eventbrite.com/e/python-fundamentals-accelerated-6319-62019-tickets-61111366743)
-- [Galvanize Data Science Prep Course](https://www.galvanize.com/data-science-prep) - FREE | study at your own pace
-
-- [Galvanize Data Science Premium Prep] (https://www.galvanize.com/data-science/prep/premium-prep-registration) - 250$ | Receive live online support and personal progress updates
+- [Python Fundamentals: accelearated TUITION CREDIT AVAILABLE!!](https://www.galvanize.com/part-time/data-science-fundamentals)
+- [Galvanize Data Science Prep Course](https://www.galvanize.com/data-science/prep) - FREE | study at your own pace
 
 - [w3schools](https://www.w3schools.com/python/default.asp) | Free
 
@@ -725,50 +720,10 @@ Learning resources:
 
 - [codecademy: learn-python](https://www.codecademy.com/learn/learn-python) | Free
 
+- [CodeWars!](www.codewars.com)
 
 ## Upcoming Events!
 
 We host so many events! check out our [calendar](https://www.galvanize.com/events)
 
 Visit the [Learn to code Denver and Colorado Data Science](https://www.meetup.com/learn-to-code-colorado/) (https://www.meetup.com/Colorado-Data-Science/) meetup for all upcoming events.
-
-
-[Web Scraping with Python](https://www.eventbrite.com/e/web-scraping-with-python-tickets-56377132521) 2hour workshop! 
-
-## What is Galvanize?
-###### We are a community!
-
-
-#### Immersive Bootcamp
-
-- [Data Science](https://www.galvanize.com/data-science)
-- [Software Engineer](https://www.galvanize.com/web-development)
-
-#### Part-Time Courses
-
-- [Digital Marketing with Data](
-- [Python Fundamentals](
-- [Introduction to Data Science] (
-
-#### Co-working Space
-
-[work in our building!](https://www.galvanize.com/entrepreneur)
-
-#### We are a community
-
-## Questions
-
-Please feel free to reach out to me with any questions! Let me know what you're planning to do next and how I can help!
-
-
--LinkedIn 
--Email 
-
-
-Questions about education at Galvanize email [travis@galvanize.com](travis.com
-
-
-
-
-
-
