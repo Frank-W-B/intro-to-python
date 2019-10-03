@@ -367,7 +367,7 @@ del person['age']
 print(person)
 ```
 
-Read more about python dictionaries [here.](https://www.w3schools.com/python/python_dictionaries.asp).
+Read more about python dictionaries [here.](https://www.w3schools.com/python/python_dictionaries.asp)
 
 -------
 ### Challenge:
@@ -429,7 +429,7 @@ Example:
 ---
 
 ## Loops
-We're going to go over some of the basic loops in python, but yet again we're not going to cover everything, so you may want to read more about loops [here.](https://www.learnpython.org/en/Loops).
+We're going to go over some of the basic loops in python, but yet again we're not going to cover everything, so you may want to read more about loops [here.](https://www.learnpython.org/en/Loops)
 
 Loops are used when you want to repeat something. You can repeat the exact same thing, or change some variable and repeat the action again.
 
