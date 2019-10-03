@@ -34,12 +34,9 @@ This sounds simple but it can get complicated!
 * We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
 
 
-Well... that was easy! 
-
-
 ## What this workshop is
 
-A super friendly introduction to Python No previous experience expected! 
+A friendly introduction to Python - No previous experience expected! 
 
 You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! 
 
@@ -57,9 +54,8 @@ Get the most out of this workshop! We'll occasionally do a "CHALLENGE" where I g
 
 ## About me:
 
-Kevin Kaltenbacher CFA, CFP - associate data science instructor - data scientist 
-https://www.linkedin.com/in/kevin-kaltenbacher/
-
+Frank Burkholder - Lead Instructor Data Science Immersive - Galvanize Platte campus
+https://www.linkedin.com/in/frankburkholder
 
 
 ## About you!
@@ -67,7 +63,6 @@ https://www.linkedin.com/in/kevin-kaltenbacher/
 Give a quick Intro!
 
 - Whats your name?
-- Whats your background?
 - Why are you interested in Python?
 
 ## What is Python?
