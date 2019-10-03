@@ -57,8 +57,8 @@ Get the most out of this workshop! We'll occasionally do a "CHALLENGE" where I g
 
 ## About me:
 
-Kevin Kaltenbacher CFA, CFP - associate data science instructor - data scientist 
-https://www.linkedin.com/in/kevin-kaltenbacher/
+Frank Burkholder, Ph.D. - Lead Data Science Instructor, Denver Platte  
+linkedin.com/in/frankburkholder
 
 
 
@@ -80,6 +80,9 @@ Python is Known ease of learning, code readability (must use code indents), and 
 
 Read more about the history of Python [here](https://en.wikipedia.org/wiki/Python_(programming_language)).
 
+What programming languages do software developers like?  [Here's what they said.](https://insights.stackoverflow.com/survey/2019#overview)
+
+And what other programming language has a philosophy behind it.  [Zen of Python](https://www.python.org/dev/peps/pep-0020/)
 
 ### Who uses Python?
 
