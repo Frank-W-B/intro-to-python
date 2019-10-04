@@ -704,7 +704,7 @@ The modulo return the remainder
 You just learned a lot! Now keep practicing!
 
 Coding is like exercising.  
-I highly recommend [CodeWars (www.codewars.com).](www.codewars.com)
+I highly recommend [CodeWars (www.codewars.com).](https://www.codewars.com)
 
 ### Keep learning!
 
@@ -720,7 +720,7 @@ Learning resources:
 
 - [codecademy: learn-python](https://www.codecademy.com/learn/learn-python) | Free
 
-- [CodeWars!](www.codewars.com)
+- [CodeWars!](https://www.codewars.com)
 
 ## Upcoming Events!
 
